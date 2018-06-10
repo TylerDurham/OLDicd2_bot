@@ -41,7 +41,7 @@ bot.dialog(getChapters.id, getChapters.waterfall)
 // The dialog stack is cleared and this dialog is invoked when the user enters 'help'.
 bot.dialog(searchCodes.id, searchCodes.waterfall)
 .triggerAction({
-    matches: /^codes|search codes$/i,
+    matches: searchCodes.pattern,
 });
 
 

@@ -4,4 +4,5 @@ export interface IDialog {
     id: string;
     name: string;
     waterfall: builder.IDialogWaterfallStep[];
+    pattern?: RegExp;
 }
