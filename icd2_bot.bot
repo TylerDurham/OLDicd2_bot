@@ -1,14 +1,23 @@
 {
-  "name": "icd2_bot",
-  "secretKey": "",
-  "services": [
-    {
-      "appId": "",
-      "id": "http://localhost:3978/api/messages",
-      "type": "endpoint",
-      "appPassword": "",
-      "endpoint": "http://localhost:3978/api/messages",
-      "name": "icd2_bot"
-    }
-  ]
+    "name": "icd2_bot",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "",
+            "id": "http://localhost:3978/api/messages",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "icd2_bot"
+        },
+        {
+            "appId": "",
+            "id": "fe74f8c0-6cd6-11e8-adb4-1f552e69e32f",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "https://icd2-bot.azurewebsites.net/api/messages",
+            "name": "icd2 (Azure)"
+        }
+    ]
 }

@@ -1,0 +1,15 @@
+{
+    "name": "icd2 in azure",
+    "description": "",
+    "secretKey": "6ae5377b67da088fec4c314344d5b45ddea683a21875a415920159774e7c8e677ebabd9707379ff87aaab2112d42bdb8",
+    "services": [
+        {
+            "appId": "ac85fde9-3bb8-4d0d-a755-6ac40848ccd7",
+            "id": "37da3230-6ce4-11e8-9ebe-194e2ff7fec8",
+            "type": "endpoint",
+            "appPassword": "cdb32d98bcd1730482058bf59ce95175366c7a35d246d15dc63b0430030483bb",
+            "endpoint": "https://icd2bot.azurewebsites.net/api/messages",
+            "name": "https://icd2bot.azurewebsites.net/api/messages"
+        }
+    ]
+}
